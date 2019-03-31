@@ -7,7 +7,6 @@ import com.travix.medusa.busyflights.client.toughjet.ToughJetSearchRestClient;
 import com.travix.medusa.busyflights.domain.crazyair.CrazyAirRequest;
 import com.travix.medusa.busyflights.domain.toughjet.ToughJetRequest;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.context.embedded.LocalServerPort;
@@ -106,7 +105,7 @@ public class BusyFlightsApplicationTests {
 				.statusCode(404)
 				.log().all();
 	}
-	
+
 	@Test
 	public void searchFlights_respond400_when_invalidQueryParam() {
 
