@@ -1,5 +1,10 @@
 package com.travix.medusa.busyflights.domain.toughjet;
 
+import lombok.Builder;
+import lombok.ToString;
+
+@ToString // for better logging details
+@Builder // Lombok annotation - Create builder for bean
 public class ToughJetRequest {
 
     private String from;

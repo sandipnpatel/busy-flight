@@ -1,5 +1,8 @@
 package com.travix.medusa.busyflights.domain.crazyair;
 
+import lombok.Builder;
+
+@Builder // Lombok annotation - Create builder for bean
 public class CrazyAirResponse {
 
     private String airline;

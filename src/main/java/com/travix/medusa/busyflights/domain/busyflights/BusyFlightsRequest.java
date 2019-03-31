@@ -1,5 +1,10 @@
 package com.travix.medusa.busyflights.domain.busyflights;
 
+import lombok.Builder;
+import lombok.ToString;
+
+@Builder // Lombok annotation - Create builder for bean
+@ToString // for better logging details
 public class BusyFlightsRequest {
 
     private String origin;
